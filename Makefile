@@ -2,7 +2,7 @@ ARCHS = arm64e
 DEBUG = 0
 FINALPACKAGE = 1
 FOR_RELEASE = 1
-THEOS_PACKAGE_SCHEME = roothide
+THEOS_PACKAGE_SCHEME = debs  # Изменено на debs
 
 include $(THEOS)/makefiles/common.mk
 
@@ -19,5 +19,3 @@ $(TWEAK_NAME)_FILES = ImGuiDrawView.mm $(wildcard Esp/*.mm) $(wildcard Esp/*.m) 
 # GO_EASY_ON_ME = 1
 
 include $(THEOS)/makefiles/tweak.mk
-
-

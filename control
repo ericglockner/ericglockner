@@ -1,0 +1,10 @@
+Package: rezolver.standoff2.modios
+Name: rezolver- Mod Menu [IOS]
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: rezolver Cheats - Mod Menu 
+Maintainer: rezolver
+Author: rezolver
+Section: Games
+

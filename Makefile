@@ -18,4 +18,3 @@ $(TWEAK_NAME)_FILES = ImGuiDrawView.mm $(wildcard Esp/*.mm) $(wildcard Esp/*.m) 
 #FreeFireth_LIBRARIES += substrate
 # GO_EASY_ON_ME = 1
 
-include $(THEOS)/makefiles/tweak.mk
